@@ -3,7 +3,7 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class MoleGame2 extends JFrame implements ActionListener, Runnable{
-    ImageIcon icon = new ImageIcon("C:\\Users\\Admin\\IdeaProjects\\Swing\\src\\images\\image01.jpg");
+    ImageIcon icon = new ImageIcon("C:\\Users\\Admin\\IdeaProjects\\JavaStudy-Swing-Awt\\Swing\\src\\images\\image01.jpg");
     Image img = icon.getImage() ;
     Image newimg = img.getScaledInstance(80, 120,  java.awt.Image.SCALE_SMOOTH ) ;
     ImageIcon ii = new ImageIcon( newimg );
